@@ -3,7 +3,7 @@
 Simple card for Gardena robotmower in Home Assistant's Lovelace UI. Using this component to add Gardena to Home Assistant:
 https://github.com/wijnandtop/home_assistant_gardena/tree/master/gardena.
 
-[![GH-release](https://img.shields.io/badge/version-0.1-red.svg?style=flat-square)](https://raw.githubusercontent.com/Cavemanz/lovelace-gardena-mower-card/master/gardena-mower-card.js)
+[![GH-release](https://img.shields.io/badge/version-0.2-red.svg?style=flat-square)](https://raw.githubusercontent.com/Cavemanz/lovelace-gardena-mower-card/master/gardena-mower-card.js)
 [![GH-last-commit](https://img.shields.io/github/last-commit/Cavemanz/lovelace-gardena-mower-card.svg?style=flat-square)](https://github.com/Cavemanz/lovelace-gardena-mower-card/commits/master)
 [![GH-code-size](https://img.shields.io/github/languages/code-size/Cavemanz/lovelace-gardena-mower-card.svg?style=flat-square)](https://github.com/Cavemanz/lovelace-gardena-mower-card)
 
