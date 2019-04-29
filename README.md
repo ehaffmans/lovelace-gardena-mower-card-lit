@@ -1,6 +1,6 @@
-# xiaomi-vacuum-card
+# gardena-mower-card
 
-Simple card for Xiaomi robot vaccums in Home Assistant's Lovelace UI
+Simple card for Gardena robotmower in Home Assistant's Lovelace UI
 
 [![GH-release](https://img.shields.io/badge/version-1.1.1-red.svg?style=flat-square)](https://raw.githubusercontent.com/benct/lovelace-xiaomi-vacuum-card/master/xiaomi-vacuum-card.js)
 [![GH-last-commit](https://img.shields.io/github/last-commit/benct/lovelace-xiaomi-vacuum-card.svg?style=flat-square)](https://github.com/benct/lovelace-xiaomi-vacuum-card/commits/master)
