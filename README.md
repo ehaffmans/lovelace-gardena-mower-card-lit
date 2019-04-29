@@ -58,7 +58,7 @@ No background image
 
 ```yaml
 - type: custom:gardena-mower-card
-  entity: vacuum.gardena-mower_cleaner
+  entity: vacuum.sileno
   background: custom/folder/and/file.png
   name: Gardena Mower
   buttons: false
