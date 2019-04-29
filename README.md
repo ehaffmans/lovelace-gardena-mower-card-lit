@@ -1,7 +1,7 @@
 # gardena-mower-card
 
 Simple card for Gardena robotmower in Home Assistant's Lovelace UI. Using this component to add Gardena to Home Assistant:
-https://github.com/wijnandtop/home_assistant_gardena/tree/master/gardena.
+https://github.com/wijnandtop/home_assistant_gardena/tree/master/gardena. Based on the work done by benct since Gardena uses the same Vacuum class: https://github.com/benct/lovelace-xiaomi-vacuum-card.
 
 [![GH-release](https://img.shields.io/badge/version-0.2-red.svg?style=flat-square)](https://raw.githubusercontent.com/Cavemanz/lovelace-gardena-mower-card/master/gardena-mower-card.js)
 [![GH-last-commit](https://img.shields.io/github/last-commit/Cavemanz/lovelace-gardena-mower-card.svg?style=flat-square)](https://github.com/Cavemanz/lovelace-gardena-mower-card/commits/master)
