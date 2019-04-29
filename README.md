@@ -3,9 +3,9 @@
 Simple card for Gardena robotmower in Home Assistant's Lovelace UI. Using this component to add Gardena to Home Assistant:
 https://github.com/wijnandtop/home_assistant_gardena/tree/master/gardena.
 
-[![GH-release](https://img.shields.io/badge/version-0.1-red.svg?style=flat-square)](https://raw.githubusercontent.com/benct/lovelace-xiaomi-vacuum-card/master/xiaomi-vacuum-card.js)
-[![GH-last-commit](https://img.shields.io/github/last-commit/benct/lovelace-xiaomi-vacuum-card.svg?style=flat-square)](https://github.com/benct/lovelace-xiaomi-vacuum-card/commits/master)
-[![GH-code-size](https://img.shields.io/github/languages/code-size/benct/lovelace-xiaomi-vacuum-card.svg?style=flat-square)](https://github.com/benct/lovelace-xiaomi-vacuum-card)
+[![GH-release](https://img.shields.io/badge/version-0.1-red.svg?style=flat-square)](https://raw.githubusercontent.com/Cavemanz/lovelace-gardena-mower-card/master/gardena-mower-card.js)
+[![GH-last-commit](https://img.shields.io/github/last-commit/Cavemanz/lovelace-gardena-mower-card.svg?style=flat-square)](https://github.com/Cavemanz/lovelace-gardena-mower-card/commits/master)
+[![GH-code-size](https://img.shields.io/github/languages/code-size/Cavemanz/lovelace-gardena-mower-card.svg?style=flat-square)](https://github.com/Cavemanz/lovelace-gardena-mower-card)
 
 ### Setup
 
@@ -13,7 +13,7 @@ Add [gardena-mower-card.js](https://raw.githubusercontent.com/Cavemanz/lovelace-
 
 ```yaml
 resources:
-  - url: /local/gardena-mower-card.js?v=0.1
+  - url: /local/gardena-mower-card.js?v=0.2
     type: js
 ```
 If you want to use the mower background image, add [img/mower.png](https://raw.githubusercontent.com/Cavemanz/lovelace-gardena-mower-card/master/img/mower.png) to `<config>/www/img/`.
