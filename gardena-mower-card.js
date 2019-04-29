@@ -1,4 +1,4 @@
-class XiaomiVacuumCard extends Polymer.Element {
+class GardenaMowerCard extends Polymer.Element {
 
     static get template() {
         return Polymer.html`
@@ -130,7 +130,7 @@ class XiaomiVacuumCard extends Polymer.Element {
         this.background = config.background !== false ? `background-image: url('/local/${config.background || 'img/vacuum.png'}')` : '';
         this.text = `color: ${config.background !== false ? 'white; text-shadow: 0 0 10px black;' : 'var(--primary-text-color)'}`;
 
-        this.vendor = config.vendor || 'xiaomi';
+        this.vendor = config.vendor || 'gardena';
         this.showDetails = this.vendor !== 'ecovacs';
 
         this._config = config;
@@ -149,4 +149,4 @@ class XiaomiVacuumCard extends Polymer.Element {
     }
 }
 
-customElements.define('xiaomi-vacuum-card', XiaomiVacuumCard);
+customElements.define('gardena-mower-card', GardenaMowerCard);
