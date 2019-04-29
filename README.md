@@ -58,11 +58,11 @@ No background image
 ![gardena-mower-card-no-background](https://raw.githubusercontent.com/Cavemanz/lovelace-gardena-mower-card/master/examples/no-background.png)
 
 ```yaml
-- type: custom:gardena-mower-card
-  entity: vacuum.sileno
-  background: custom/folder/and/file.png
-  name: Gardena Mower
-  buttons: false
+type: 'custom:gardena-mower-card'
+entity: vacuum.sileno
+name: Gardena Sileno City 500
+buttons: true
+background: img/mower.png
 ```
 
 
