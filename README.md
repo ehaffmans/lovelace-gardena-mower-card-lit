@@ -34,11 +34,11 @@ custom_updater:
 | Name | Type | Default | Description
 | ---- | ---- | ------- | -----------
 | type | string | **Required** | `custom:gardena-mower-card`
-| entity | string | **Required** | `vacuum.my_gardena_mower`
+| entity | string | **Required** | `vacuum.sileno`
 | name | string/bool | `friendly_name` | Override entity friendly name (set to false to hide title)
 | background | string/bool | `img/mower.png` | Custom path/name of background image (set to false to disable background)
 | buttons | bool | `true` | Set to false to hide button row
-| vendor | string | gardena | Set to ecovacs to use with ecovacs
+| vendor | string | gardena | 
 
 ### Examples
 
