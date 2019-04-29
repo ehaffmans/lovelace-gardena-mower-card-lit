@@ -63,9 +63,9 @@ class GardenaMowerCard extends Polymer.Element {
                 </div>
                 <template is="dom-if" if="{{showDetails}}">
                   <div class="grid-content grid-right" >
-                    <div>Cutting Time: [[stateObj.attributes.cutting_time]] h</div>
-                    <div>Charging Cycles: [[stateObj.attributes.charging_cycles]] h</div>
+                    <div>Charging Cycles: [[stateObj.attributes.charging_cycles]]</div>
                     <div>Collisions: [[stateObj.attributes.collisions]]</div>
+                    <div>Cutting Time: [[stateObj.attributes.cutting_time]] h</div>
                     <div>Running Time: [[stateObj.attributes.running_time]] h</div>
                   </div>
                 </template>
