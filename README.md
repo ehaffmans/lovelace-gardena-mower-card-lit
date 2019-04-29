@@ -13,8 +13,8 @@ Add [gardena-mower-card.js](https://raw.githubusercontent.com/Cavemanz/lovelace-
 
 ```yaml
 resources:
-  - url: /local/gardena-mower-card.js?v=0.2
-    type: js
+  - type: js
+    url: /local/gardena-mower-card.js?v=0.2
 ```
 If you want to use the mower background image, add [img/mower.png](https://raw.githubusercontent.com/Cavemanz/lovelace-gardena-mower-card/master/img/mower.png) to `<config>/www/img/`.
 
