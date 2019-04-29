@@ -59,14 +59,14 @@ class GardenaMowerCard extends Polymer.Element {
                   <div>Status: [[stateObj.attributes.status]]</div>
                   <div>Battery: [[stateObj.attributes.battery_level]] %</div>
                   <div>Radio: [[stateObj.attributes.radio_quality]] %</div>
-                  <div>Next start: [[stateObj.attributes.timestamp_next_start]]</div>
+                  <div>Last Error: [[stateObj.attributes.last_error_code]]</div>
                 </div>
                 <template is="dom-if" if="{{showDetails}}">
                   <div class="grid-content grid-right" >
-                    <div>Cutting time: [[stateObj.attributes.cutting_time]] h</div>
-                    <div>Charging cycles: [[stateObj.attributes.charging_cycles]] h</div>
+                    <div>Cutting Time: [[stateObj.attributes.cutting_time]] h</div>
+                    <div>Charging Cycles: [[stateObj.attributes.charging_cycles]] h</div>
                     <div>Collisions: [[stateObj.attributes.collisions]]</div>
-                    <div>Running time: [[stateObj.attributes.running_time]] h</div>
+                    <div>Running Time: [[stateObj.attributes.running_time]] h</div>
                   </div>
                 </template>
               </div>
