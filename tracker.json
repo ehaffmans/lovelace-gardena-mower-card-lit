@@ -1,9 +1,9 @@
 {
-  "xiaomi-vacuum-card": {
-    "updated_at": "2019-04-11",
-    "version": "1.1.1",
-    "remote_location": "https://raw.githubusercontent.com/benct/lovelace-xiaomi-vacuum-card/master/xiaomi-vacuum-card.js",
-    "visit_repo": "https://github.com/benct/lovelace-xiaomi-vacuum-card",
-    "changelog": "https://github.com/benct/lovelace-xiaomi-vacuum-card"
+  "gardena-mower-card": {
+    "updated_at": "2019-04-29",
+    "version": "0.1",
+    "remote_location": "https://raw.githubusercontent.com/Cavemanz/lovelace-gardena-mower-card/master/gardena-mower-card.js",
+    "visit_repo": "https://github.com/Cavemanz/lovelace-gardena-mower-card",
+    "changelog": "https://github.com/Cavemanz/lovelace-gardena-mower-card"
   }
 }
