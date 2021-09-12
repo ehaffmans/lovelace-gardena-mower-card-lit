@@ -1,4 +1,4 @@
-class GardenaMowerCard extends Polymer.Element {
+class MyGardenaCard extends Polymer.Element {
 
     static get template() {
         return Polymer.html`
@@ -27,6 +27,7 @@ class GardenaMowerCard extends Polymer.Element {
             .button {
               cursor: pointer;
               padding: 16px;
+              color: white;
             }
             .grid {
               display: grid;
@@ -56,17 +57,15 @@ class GardenaMowerCard extends Polymer.Element {
             <div class="content" on-click="moreInfo" style="[[padding]]">
               <div class="grid" style="[[text]]">
                 <div class="grid-content grid-left">
-                  <div>Status: [[stateObj.attributes.status]]</div>
+                  <div>Status: [[stateObj.attributes.state]]</div>
                   <div>Battery: [[stateObj.attributes.battery_level]] %</div>
-                  <div>Radio: [[stateObj.attributes.radio_quality]] %</div>
-                  <div>Next Start: [[stateObj.attributes.timestamp_next_start]]</div>
+                  <div>Radio: [[stateObj.attributes.rf_link_level]] %</div>
                 </div>
                 <template is="dom-if" if="{{showDetails}}">
                   <div class="grid-content grid-right" >
-                    <div>Charging Cycles: [[stateObj.attributes.charging_cycles]]</div>
-                    <div>Collisions: [[stateObj.attributes.collisions]]</div>
-                    <div>Cutting Time: [[stateObj.attributes.cutting_time]] h</div>
-                    <div>Running Time: [[stateObj.attributes.running_time]] h</div>
+                    <div>Last Error: [[stateObj.attributes.last_error]]</div>
+                    <div>Battery State: [[stateObj.attributes.battery_state]] </div>
+                    <div>Cutting Time: [[stateObj.attributes.operating_hours]] h</div>
                   </div>
                 </template>
               </div>
@@ -142,4 +141,4 @@ class GardenaMowerCard extends Polymer.Element {
     }
 }
 
-customElements.define('gardena-mower-card', GardenaMowerCard);
+customElements.define('my-gardena-card', MyGardenaCard);
