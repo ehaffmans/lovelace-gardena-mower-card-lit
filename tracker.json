@@ -1,5 +1,5 @@
 {
-  "gardena-mower-card": {
+  "my-gardena-card": {
     "updated_at": "2019-04-29",
     "version": "0.1",
     "remote_location": "https://raw.githubusercontent.com/jeffreybrits/lovelace-gardena-mower-card/master/my-gardena-card.js",
