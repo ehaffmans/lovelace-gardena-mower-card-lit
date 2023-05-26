@@ -12,7 +12,7 @@ class MyGardenaCard extends LitElement {
               background-size: cover;
             }
             .title {
-			        display:block!important;
+              display:block!important;
               font-size: 20px;
               padding: 16px 16px 0;
               text-align: center;
