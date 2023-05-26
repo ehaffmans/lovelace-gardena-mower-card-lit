@@ -1,9 +1,9 @@
 {
   "my-gardena-card": {
-    "updated_at": "2019-04-29",
+    "updated_at": "2023-05-26",
     "version": "0.1",
-    "remote_location": "https://raw.githubusercontent.com/jeffreybrits/lovelace-gardena-mower-card/master/my-gardena-card.js",
-    "visit_repo": "https://github.com/jeffreybrits/lovelace-gardena-mower-card",
-    "changelog": "https://github.com/jeffreybrits/lovelace-gardena-mower-card"
+    "remote_location": "https://raw.githubusercontent.com/ehaffmans/lovelace-gardena-mower-card-lit/master/my-gardena-card.js",
+    "visit_repo": "https://github.com/ehaffmans/lovelace-gardena-mower-card-lit",
+    "changelog": "https://github.com/jeffreybrits/lovelace-gardena-mower-card-lit"
   }
 }
